@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1e252b;
+}
+nav {
+  display: flex;
+}
+.Brand img {
+  width: 200px;
+}
+.all {
+  padding: 0 50px;
+  padding-top: 40px;
+}
+a {
+  text-decoration: none;
+  color: #adb0b2;
+}
+li {
+  list-style: none;
+}
+.menu {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+.option {
+  margin-right: 50px;
+  padding-bottom: 5px;
+  transition: 200ms;
+}
+ul a ion-icon {
+  margin-right: 50px;
+  font-size: 20px;
+}
+.menu a button {
+  background-color: #45b26b;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 1px solid #1e252b;
+  transition: 200ms;
+}
+.menu a button span {
+  color: #f3f9f5;
+  font-weight: bold;
+}
+.menu a button:hover {
+  background-color: #1e252b;
+  border: 1px solid #45b26b;
+}
+.option:hover {
+  color: #45b26b;
+  border-bottom: 1px solid #45b26b;
+}
+ul a ion-icon:hover {
+  color: #45b26b;
+}
