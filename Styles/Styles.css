@@ -111,3 +111,47 @@ h1 {
 .box-img {
   margin-left: auto;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.box-text-footer {
+  display: flex;
+  justify-content: center;
+}
+.text-footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #5a6168;
+  font-size: large;
+}
+.box-i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-i {
+  margin: 0 50px 0 50px;
+}
+.icon ion-icon {
+  font-size: 30px;
+  color: #5a6f8c;
+}
+.in-icon {
+  color: #5a6f8c;
+  margin-left: 5px;
+}
+.ini-6 {
+  margin-right: 2px;
+}
+.a-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
