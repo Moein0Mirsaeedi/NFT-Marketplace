@@ -105,6 +105,9 @@ h1 {
   display: flex;
   align-items: center;
 }
+.player ion-icon {
+  margin-bottom: 5px;
+}
 .box-img {
   margin-left: auto;
 }
