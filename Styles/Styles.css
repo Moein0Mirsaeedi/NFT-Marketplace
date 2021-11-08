@@ -55,6 +55,9 @@ ul a ion-icon {
   background-color: #1e252b;
   border: 1px solid #45b26b;
 }
+.menu a button:hover > span {
+  color: #45b26b;
+}
 .option:hover {
   color: #45b26b;
   border-bottom: 1px solid #45b26b;
@@ -93,6 +96,9 @@ h1 {
   color: #d1dfff;
   border: 1px solid #3772ff;
 }
+.box-button a button:hover > span {
+  color: #3772ff;
+}
 .box-button {
   display: flex;
   align-items: center;
@@ -114,6 +120,7 @@ h1 {
 footer {
   display: flex;
   flex-direction: column;
+  height: 230px;
 }
 .box-text-footer {
   display: flex;
