@@ -120,15 +120,15 @@ h1 {
 footer {
   display: flex;
   flex-direction: column;
-  height: 230px;
+  height: 200px;
 }
 .box-text-footer {
   display: flex;
   justify-content: center;
 }
 .text-footer {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   color: #5a6168;
   font-size: large;
 }
