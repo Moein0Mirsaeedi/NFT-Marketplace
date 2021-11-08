@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -257,6 +257,8 @@ header {
 
 .btn-header {
   margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .btn1-header {
@@ -265,24 +267,48 @@ header {
   padding: 20px 50px;
   border-radius: 10px;
   margin-right: 50px;
+  border: #3773ff00 2px solid;
+  transition: all 200ms;
 }
 
-.btn2-header {
+.btn1-header:hover {
+  border: #3772ff 2px solid;
+  background-color: rgba(255, 255, 255, 0);
+  color: #3772ff;
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin-right: 50px;
 }
 
 .btn2-header ion-icon {
   border: rgba(85, 85, 85, 0.658) 2px solid;
   border-radius: 50px;
   padding: 18px;
+  padding-left: 20px;
   font-size: 23px;
   color: white;
   position: relative;
   top: 26px;
   right: 10px;
+  transition: all 200ms;
 }
 
 .btn2-header .btn-1 {
   color: white;
+  transition: all 200ms;
+}
+
+.btn2-header:hover{
+}
+
+.btn2-header:hover span ion-icon {
+  border: #3772ff 2px solid;
+  color: #3772ff;
+
+}
+
+.btn2-header:hover .btn-1 {
+  color: #3772ff;
 }
 
 @media screen and (max-width: 1100px) {
@@ -311,11 +337,11 @@ header {
     padding: 0 10px;
     padding-top: 20px;
   }
-  .btn-header{
+  .btn-header {
     display: flex;
     flex-direction: column;
   }
   .col2 img {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
