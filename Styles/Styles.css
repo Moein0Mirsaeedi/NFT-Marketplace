@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -214,32 +215,107 @@ footer {
 .box-player ion-icon {
   color: rgba(0, 0, 0, 0.795);
 } */
+
 header {
-  margin-top: 30px;
+  margin-top: 70px;
   display: grid;
-  grid-template-areas: "t i i i" "t i i i";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1 1;
+  padding-left: 30px;
 }
-.box-text {
-  grid-area: t;
-  width: 50%;
+
+.col1 {
+  grid-area: 1 / 1 / 3 / 2;
 }
-.box-img {
-  grid-area: i;
+
+.col2 {
+  grid-area: 1 / 2 / 3 / 3;
 }
-.box-img img {
-  width: 100%;
+
+.col2 img {
+  width: 80%;
 }
-.text {
-  width: 100%;
+
+.my-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
 }
-.text h1 {
-  font-size: 65px;
+
+.col1 h1 {
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
-.text p {
-  margin-top: 20px;
-  font-size: 20px;
-  font-family: "Zen Antique", serif;
-  font-family: "Rubik", sans-serif;
-  color: #8c919d;
+
+.col1 p {
+  font-size: 19px;
+  color: #afafafb9;
+}
+
+.btn-header {
+  margin-top: 50px;
+}
+
+.btn1-header {
+  background-color: #3772ff;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.btn2-header {
+}
+
+.btn2-header ion-icon {
+  border: rgba(85, 85, 85, 0.658) 2px solid;
+  border-radius: 50px;
+  padding: 18px;
+  font-size: 23px;
+  color: white;
+  position: relative;
+  top: 26px;
+  right: 10px;
+}
+
+.btn2-header .btn-1 {
+  color: white;
+}
+
+@media screen and (max-width: 1100px) {
+  .col1 h1 {
+    font-size: 50px;
+  }
+  .col1 p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .col1 {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+
+  .col2 {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+
+  .col2 {
+    width: 80%;
+    margin-top: 60px;
+  }
+  .all {
+    padding: 0 10px;
+    padding-top: 20px;
+  }
+  .btn-header{
+    display: flex;
+    flex-direction: column;
+  }
+  .col2 img {
+  width: 100%;
+}
 }
