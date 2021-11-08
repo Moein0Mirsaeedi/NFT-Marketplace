@@ -215,12 +215,31 @@ footer {
   color: rgba(0, 0, 0, 0.795);
 } */
 header {
+  margin-top: 30px;
   display: grid;
-  grid-template-areas: "t t i i";
+  grid-template-areas: "t i i i" "t i i i";
 }
 .box-text {
   grid-area: t;
+  width: 50%;
 }
 .box-img {
   grid-area: i;
+}
+.box-img img {
+  width: 100%;
+}
+.text {
+  width: 100%;
+}
+.text h1 {
+  font-size: 65px;
+  color: #ffffff;
+}
+.text p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Zen Antique", serif;
+  font-family: "Rubik", sans-serif;
+  color: #8c919d;
 }
